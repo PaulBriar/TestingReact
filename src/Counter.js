@@ -12,8 +12,8 @@ class Counter extends React.Component {
     return (
 			<div>
 				<p>Current Count: {this.state.count}</p>
-				<button className="inc" onClick={this.makeIncrementer(1)}>Increment Count</button>
-				<button className="dec" onClick={this.makeIncrementer(-1)}>Decrement Count</button>
+				<button className="inc" onClick={this.makeIncrementer(1)}>Increment</button>
+				<button className="dec" onClick={this.makeIncrementer(-1)}>Decrement</button>
 			</div>
     )
   }
